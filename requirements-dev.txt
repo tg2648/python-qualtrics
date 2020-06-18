@@ -1,0 +1,4 @@
+-r requirements.txt
+flake8==3.8.3
+mypy==0.780
+python-dotenv==0.13.0
