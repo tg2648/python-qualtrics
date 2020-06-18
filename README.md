@@ -1,4 +1,4 @@
-# cu-qualtrics
+# python-qualtrics
 
 Structure is heavily based on https://github.com/prschmid/zoomus
 

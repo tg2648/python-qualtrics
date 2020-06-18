@@ -1,9 +1,50 @@
-**/*.csv
-**/*.png
-**/*.xlsx
-**/*.xls
-.DS_Store
+# Created by https://www.toptal.com/developers/gitignore/api/python,vim,visualstudiocode,linux,macos,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,vim,visualstudiocode,linux,macos,windows
 
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -26,6 +67,11 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+=======
+pip-wheel-metadata/
+share/python-wheels/
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 *.egg-info/
 .installed.cfg
 *.egg
@@ -44,12 +90,20 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
+=======
+.nox/
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
+=======
+*.py,cover
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 .hypothesis/
 .pytest_cache/
 
@@ -61,6 +115,10 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+<<<<<<< HEAD
+=======
+db.sqlite3-journal
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 
 # Flask stuff:
 instance/
@@ -78,11 +136,34 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # pyenv
 .python-version
 
 # celery beat schedule file
 celerybeat-schedule
+=======
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 
 # SageMath parsed files
 *.sage.py
@@ -108,6 +189,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
 
 
 ### VisualStudioCode ###
@@ -116,6 +198,43 @@ venv.bak/
 .vscode/tasks.json
 .vscode/launch.json
 .vscode/extensions.json
+=======
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 *.code-workspace
 
 ### VisualStudioCode Patch ###
@@ -125,6 +244,10 @@ venv.bak/
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
+<<<<<<< HEAD
+=======
+Thumbs.db:encryptable
+>>>>>>> d247473db5f5bab1483e8f0517b987090585b60d
 ehthumbs.db
 ehthumbs_vista.db
 
@@ -146,3 +269,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/python,vim,visualstudiocode,linux,macos,windows
