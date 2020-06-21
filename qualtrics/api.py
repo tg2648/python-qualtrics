@@ -35,7 +35,7 @@ class QualtricsAPI(object):
 
     ### Helper methods ###
 
-    def url_for(self, 
+    def url_for(self,
                 endpoint: str) -> str:
         """
         Get full URL for an endpoint.
@@ -56,9 +56,9 @@ class QualtricsAPI(object):
 
     ### API methods ###
 
-    def get_request(self, 
-                    endpoint: str, 
-                    params: Dict[str, Any] = None, 
+    def get_request(self,
+                    endpoint: str,
+                    params: Dict[str, Any] = None,
                     headers: Dict[str, str] = None) -> requests.Response:
         """
         GET request.
@@ -76,10 +76,10 @@ class QualtricsAPI(object):
 
         return requests.get(self.url_for(endpoint), headers=headers)
 
-    def post_request(self, 
-                     endpoint: str, 
-                     payload: Dict[str, Any], 
-                     params: Dict[str, Any] = None, 
+    def post_request(self,
+                     endpoint: str,
+                     payload: Dict[str, Any],
+                     params: Dict[str, Any] = None,
                      headers: Dict[str, str] = None) -> requests.Response:
         """
         POST request.
@@ -98,13 +98,13 @@ class QualtricsAPI(object):
 
         return requests.post(self.url_for(endpoint), json=payload, headers=headers)
 
-    def put_request(self, 
-                    endpoint: str, 
-                    payload: Dict[str, Any], 
-                    params: Dict[str, Any] = None, 
+    def put_request(self,
+                    endpoint: str,
+                    payload: Dict[str, Any],
+                    params: Dict[str, Any] = None,
                     headers: Dict[str, str] = None) -> requests.Response:
         """
-        POST request.
+        PUT request.
 
         Args:
             endpoint (str): API endpoint
@@ -120,10 +120,10 @@ class QualtricsAPI(object):
 
         return requests.post(self.url_for(endpoint), json=payload, headers=headers)
 
-    def delete_request(self, 
-                       endpoint: str, 
-                       payload: Dict[str, Any], 
-                       params: Dict[str, Any] = None, 
+    def delete_request(self,
+                       endpoint: str,
+                       payload: Dict[str, Any],
+                       params: Dict[str, Any] = None,
                        headers: Dict[str, str] = None) -> requests.Response:
         """
         DELETE request.
