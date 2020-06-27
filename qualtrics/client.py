@@ -3,8 +3,8 @@ Qualtrics API Client
 """
 
 # Local imports
-from api import QualtricsAPI
-import components
+from qualtrics.api import QualtricsAPI
+from qualtrics import components
 
 
 class QualtricsClient(QualtricsAPI):
