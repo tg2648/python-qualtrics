@@ -18,7 +18,7 @@ class ApiTestCase(unittest.TestCase):
     def test_init_sets_config(self):
         client = api.QualtricsAPI(
             data_center='ab1',
-            api_key='abcd1234#$'
+            api_key='abcd1234#$%'
         )
         self.assertEqual(client.config.get('data_center'), 'ab1')
         self.assertEqual(client.config.get('api_key'), 'abcd1234#$%')
