@@ -33,7 +33,7 @@ class QualtricsAPI(object):
             'base_url': f'https://{data_center}.qualtrics.com/API/v3/'
         }
 
-    ### Helper methods ###
+    # Helpers
 
     def url_for(self,
                 endpoint: str) -> str:
@@ -54,7 +54,7 @@ class QualtricsAPI(object):
 
         return self.config['base_url'] + endpoint
 
-    ### API methods ###
+    # API methods
 
     def get_request(self,
                     endpoint: str,

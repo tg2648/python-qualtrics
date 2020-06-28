@@ -30,4 +30,3 @@ class SurveyComponent(QualtricsAPI):
             params = {'enum': survey_format}
 
         return self.get_request(endpoint, params=params)
-
