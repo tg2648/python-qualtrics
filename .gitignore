@@ -1,5 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,vim,visualstudiocode,linux,macos,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,vim,visualstudiocode,linux,macos,windows
+
+# Created by https://www.toptal.com/developers/gitignore/api/vim,macos,linux,python,windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,macos,linux,python,windows,visualstudiocode
 
 ### Linux ###
 *~
@@ -199,6 +200,7 @@ tags
 [._]*.un~
 
 ### VisualStudioCode ###
+**/.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -236,4 +238,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/python,vim,visualstudiocode,linux,macos,windows
+# End of https://www.toptal.com/developers/gitignore/api/vim,macos,linux,python,windows,visualstudiocode
